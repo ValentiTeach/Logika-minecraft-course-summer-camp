@@ -36,15 +36,15 @@ export default function Hero() {
           <div className={`hero-meta ${cls(4)}`} style={{ marginTop: 48 }}>
             <div>
               <div className="label">Тривалість</div>
-              <div className="value">10 днів</div>
+              <div className="value">11 днів</div>
             </div>
             <div>
               <div className="label">Вік</div>
-              <div className="value">11–15 років</div>
+              <div className="value">8–15 років</div>
             </div>
             <div>
               <div className="label">Формат</div>
-              <div className="value">~3 год / день</div>
+              <div className="value"> 8:00 - 18:00 / день</div>
             </div>
             <div>
               <div className="label">Локація</div>
