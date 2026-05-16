@@ -2,12 +2,12 @@ import { useReveal } from '../hooks/useReveal'
 
 const INFO_ROWS = [
   { key: 'Дати', val: <><strong>15–26 червня 2026</strong> · 10 робочих днів (пн–пт × 2 тижні)</> },
-  { key: 'Час', val: '~3 години на день · точний розклад уточнюється за тиждень до початку' },
-  { key: 'Вік', val: '11–15 років · бажано базове знайомство з ПК та Майнкрафтом' },
+  { key: 'Час', val: 'точний розклад уточнюється за тиждень до початку' },
+  { key: 'Вік', val: '8–15 років · бажано базове знайомство з ПК та Майнкрафтом' },
   { key: 'Група', val: 'До 12 учнів · 1 викладач + 1 наставник' },
-  { key: 'Локація', val: 'Logika, Філія Коломия · ліцей №9' },
-  { key: 'Що потрібно', val: "Тільки бажання — комп'ютери, ліцензії та сервер забезпечує школа" },
-  { key: 'Фінал', val: <><strong>Grand Opening 26.06</strong> — публічна презентація для батьків та друзів</> },
+  { key: 'Локація', val: 'Logika School / Kolomyia' },
+  { key: 'Що потрібно', val: "Тільки бажання — комп'ютери та сервер забезпечує школа" },
+  { key: 'Фінал', val: <><strong>Grand Opening </strong> — публічна презентація для батьків та друзів</> },
   { key: 'Сертифікат', val: 'Іменний диплом «Senior Minecraft Developer & DevOps Engineer» з переліком засвоєних скілів' },
 ]
 
@@ -58,7 +58,7 @@ export default function Info() {
                 <span>✓</span>
               </div>
             ))}
-            <a href="tel:+380" className="cta-btn">Записатися на курс</a>
+            <a href="https://t.me/amourkit" target="_blank" rel="noopener noreferrer" className="cta-btn">Записатися на курс</a>
             <p style={{ fontSize: 12, color: 'var(--ink-muted)', marginTop: 16, textAlign: 'center' }}>
               Подзвоніть або напишіть — підкажемо найближчий вільний потік
             </p>
