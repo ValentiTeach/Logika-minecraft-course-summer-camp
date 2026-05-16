@@ -14,7 +14,7 @@ export default function Nav() {
           <a href="#ladder">Драбина</a>
           <a href="#program">Програма</a>
           <a href="#info">Інфо</a>
-          <a href="#enroll" className="cta-btn">Записатися</a>
+          <a href="https://t.me/amourkit" target="_blank" rel="noopener noreferrer" className="cta-btn">Записатися</a>
         </div>
       </div>
     </nav>
