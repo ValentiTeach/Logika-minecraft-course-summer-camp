@@ -92,20 +92,43 @@ nav {
   color: var(--ink-soft); text-decoration: none; font-size: 14px; font-weight: 500;
   transition: color .2s;
 }
-.nav-links a:hover { color: var(--purple); }
-.cta-btn {
-  color: white;
-  background: var(--ink); color: white;
-  padding: 10px 18px; border-radius: 999px;
-  font-size: 14px; font-weight: 500;
+.nav-links a {
+  color: #718096;
   text-decoration: none;
-  transition: background .25s var(--t), transform .25s var(--t);
-  border: none; cursor: pointer; font-family: inherit;
+  transition: color 0.25s var(--t);
 }
-.cta-btn:hover { background: var(--purple); transform: translateY(-1px); }
+
+.nav-links a:hover { 
+  color: var(--purple); 
+}
+
+.cta-btn {
+  background: var(--ink); 
+  color: white !important; 
+  padding: 10px 18px; 
+  border-radius: 999px;
+  font-size: 14px; 
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.25s var(--t), transform 0.25s var(--t);
+  border: none; 
+  cursor: pointer; 
+  font-family: inherit;
+  display: inline-block;
+}
+
+.cta-btn:hover { 
+  background: var(--purple); 
+  transform: translateY(-1px); 
+}
+
 @media (max-width: 760px) {
-  .nav-links a:not(.cta-btn) { display: none; }
-  .nav-inner { padding: 14px 20px; }
+  .nav-links a:not(.cta-btn) { 
+    display: none; 
+  }
+  .nav-inner { 
+    padding: 14px 20px; 
+  }
 }
 
 /* —— HERO —— */
