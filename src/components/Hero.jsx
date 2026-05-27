@@ -47,7 +47,7 @@ export default function Hero() {
             </div>
             <div>
               <div className="label">Формат</div>
-              <div className="value"> 8:00 - 18:00 / день</div>
+              <div className="value"> 9:00 - 18:00 / день</div>
             </div>
             <div>
               <div className="label">Локація</div>
